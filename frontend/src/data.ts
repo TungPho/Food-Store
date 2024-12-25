@@ -16,7 +16,7 @@ export const sampleFoods: Food[] = [
     name: 'Vegetable Pizza',
     price: 9,
     cookTime: '40-50',
-    favorite: false,
+    favorite: true,
     origins: ['italy'],
     stars: 4.0,
     imageUrl: './assets/food-1.jpg',
@@ -46,7 +46,7 @@ export const sampleFoods: Food[] = [
   },
   {
     id: '5',
-    name: 'Vegetable Pizza',
+    name: 'hamburger',
     price: 9,
     cookTime: '40-50',
     favorite: false,
