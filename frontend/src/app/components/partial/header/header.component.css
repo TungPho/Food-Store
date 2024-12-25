@@ -1,6 +1,6 @@
 header {
   position: relative;
-  background-color: white;
+  background: white;
   padding: 0;
   border-bottom: 1px solid #e72929;
 }
@@ -13,11 +13,14 @@ a:hover {
   color: white;
   cursor: pointer;
 }
+
 .container {
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
+
 a.logo {
   font-weight: bold;
   padding: 1rem;
@@ -27,10 +30,12 @@ ul {
   list-style-type: none;
   margin: 0;
 }
+
 ul a {
   padding: 1rem;
   display: inline-block;
 }
+
 a span {
   background: #ff4d4d;
   color: white;
@@ -47,11 +52,10 @@ a span {
   background: whitesmoke;
   display: none;
 }
-
 .menu-container:hover .menu {
   display: block;
 }
-
 .menu a {
   width: 100%;
+  min-width: 8rem;
 }
